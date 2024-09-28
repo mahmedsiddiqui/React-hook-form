@@ -1,0 +1,82 @@
+/* AdmissionForm.module.css */
+
+.formContainer {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #00c6f8b7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  h2 {
+    text-align: center;
+    color: #5e5555;
+    font-size: 50px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 20px;
+    text-indent: 10px;
+  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 500px;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #0084ff;
+    outline: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #0084ff;
+    padding: auto;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6cbe1e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3cff00;
+  }
+  
+  .profilePhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .profilePhoto img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
